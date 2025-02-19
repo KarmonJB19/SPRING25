@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 36px;
+    color: white;  
+    background-color: lightgray;
+    margin-top: 50px;
+    padding-top: 50px;
+    border-bottom: 2px double gold;
+    width: 30%;
+    height: 30px;
+}
+
+nav{
+    border: 2px dotted white;
+    background-color: deepskyblue;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav ul{
+    border: 2px solid pink;
+    margin-top: 0;
+    margin-left: 0;
+    display: inline-block;
+}
+
+nav ul li{
+    border: 1px dashed white;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    box-shadow: inset;
+}
+
+
+main{
+    width: 100%;
+    border: 1px solid green;
+}
+
+main aside{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid yellowgreen;
+
+
+
+    display: table-cell;
+}
+
+main article{
+    width: 68%;
+     display: inline-block;
+    border: 1px solid blueviolet;
+}
+
+main aside ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 5px;
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+main aside ul li{
+    background-color: brown;
+    margin-bottom: 5px;
+    border-top: orange;
+}
+
+.wdd{
+    border: 1px solid purple;
+}
+
+.c2{
+    font-size: 24px;
+}
+
+
+#article_img{
+    width: 1000px;
+    height: 1000px;
+}
+
+footer{
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+header,
+footer{
+    text-align: center;
+    color: white;
+    background-color: lightgrey;
+    padding-bottom: 20px;
+}
+   
+.text_style{
+    text-align: left;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+    vertical-align: top;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+
+
+
+    text-transform: uppercase;
+    text-indent: 0px;
+    letter-spacing: 50px;
+    line-height: 4;
+    word-spacing: 40px (or normal);
+}
+
+.text_g_font{
+    font-family: Sofia;
+    font-variant: small-caps;
+    font font-size: 300%;
+    font-weight: 900;
+
+}
+
+
+.heading_style{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.paragraph_style{
+    font-family: garamond;
+}
